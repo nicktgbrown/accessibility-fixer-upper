@@ -41,6 +41,10 @@ a:hover {
   top: -3em;
 }
 
+.list-group a {
+  color: #000;
+}
+
 .skip-links a:focus {
   top: 0;
 }
