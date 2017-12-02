@@ -10,17 +10,13 @@ html {
   color: #113c00;
 }
 
-.news: a {
+.news a {
   color: #568c36;
   text-decoration: underline;
 }
 
 a:hover {
   color: #113c00;
-}
-
-nav, a:focus {
-  background-color: #fff;
 }
 
 .masthead {
@@ -40,9 +36,22 @@ nav, a:focus {
   text-decoration: none;
 }
 
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
+.skip-links a:focus {
+  top: 0;
+}
+
 .nav a:hover {
   background-color: #fff;
   color: #113c00;
+}
+
+.nav a:focus {
+  background-color: #fff;
 }
 
 .about {
